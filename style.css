@@ -8,6 +8,7 @@
     --bg-page:#ffffff ;
     --bg-clock: #cfb310;
     --fc-clock: #69685c;
+    font-size: 62.5%;
 }
 
 :root[data-theme ="dark"] {
@@ -25,8 +26,8 @@ footer, .display {
 }
 
 .page-wrapper {
-    margin: 30px auto;
-    width: 600px;
+    margin: 3rem auto;
+    width: 38rem;
     height: 100vh;
 }
 
@@ -36,8 +37,8 @@ header nav {
 }
 
 .btn-check {
-    width: 60px;
-    height: 28px;
+    width: 6rem;
+    height: 3rem;
     position: relative;
 }
 
@@ -104,7 +105,7 @@ svg.checkbox .is_unchecked {
   
 
 #clock {
-    height: 80vh;
+    height: 6 0vh;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -113,12 +114,12 @@ svg.checkbox .is_unchecked {
 
 .display {
     background-color:var(--fc-clock) ;
-    width: 360px;
-    height: 160px;
+    width: 36rem;
+    height: 16rem;
 
     font-family: 'Qahiri', sans-serif;
-    font-size: 130px;    
-    line-height: 140px;
+    font-size: 13rem;    
+    line-height: 14rem;
 
     color: var(--bg-clock);
 
@@ -129,7 +130,7 @@ svg.checkbox .is_unchecked {
 
 footer p, footer a {
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 18px;
+    font-size: 2rem;
     color: var(--fc-clock);
 }
 
