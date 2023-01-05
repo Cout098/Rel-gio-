@@ -19,14 +19,11 @@
 
 body {
     background-color: var(--bg-page);
-}
-
-footer, .display {
     text-align: center;
 }
 
 .page-wrapper {
-    margin: 3rem auto;
+    margin: 20rem auto;
     width: 38rem;
     height: 100vh;
 }
@@ -100,7 +97,7 @@ svg.checkbox .is_unchecked {
     fill: var(--bg-clock);
     transform-origin: 50% 50%;
     transform: translateX(200%) rotate(45deg);
-    transition: all .35s;
+    transition: all 0.35s;
 }
   
 
@@ -125,6 +122,8 @@ svg.checkbox .is_unchecked {
 
     border: 10px solid var(--bg-clock);
     border-radius: 45px;
+
+    margin: 3rem auto;
 }
 
 
